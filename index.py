@@ -37,4 +37,4 @@ def create_image()->str:
     return {"data":response["data"][0]["url"],"id":request.args.get("id")}
     #response.get('choices')[0].get('text').strip()
 if __name__=="__main__":
-    app.run(5000,debug=False)
+    app.run(debug=False)
