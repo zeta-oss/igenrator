@@ -38,3 +38,5 @@ def create_image()->str:
     #response.get('choices')[0].get('text').strip()
 if __name__=="__main__":
     app.run(debug=False)
+    
+    
